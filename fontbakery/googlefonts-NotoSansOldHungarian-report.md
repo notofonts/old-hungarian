@@ -1,59 +1,12 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
-<details><summary><b>[20] NotoSansOldHungarian-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check license file has good copyright string. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_copyright">com.google.fonts/check/license/OFL_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** First line in license file is:
-
-"copyright 20** the noto project authors (https://github.com/notofonts/noto-project-template)"
-
-which does not match the expected format, similar to:
-
-"Copyright 2022 The Familyname Project Authors (git url)" [code: bad-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: FONT_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/familyname">com.google.fonts/check/name/familyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Entry [FONT_FAMILY_NAME(1):WINDOWS(3)] on the "name" table: Expected "Noto Sans Old Hungarian" but got "Noto Sans OldHung". [code: mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table: TYPOGRAPHIC_FAMILY_NAME entries. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/typographicfamilyname">com.google.fonts/check/name/typographicfamilyname</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font style is "Regular" and, for that reason, it is not expected to have a [TYPOGRAPHIC_FAMILY_NAME(16):WINDOWS(3)] entry! [code: ribbi]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansOldHungarian/googlefonts/ttf/NotoSansOldHungarian-Regular.ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+<details><summary><b>[11] NotoSansOldHungarian-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 995, but got 859 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 241, but got 177 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Does full font name begin with the font family name? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/name/match_familyname_fullfont">com.google.fonts/check/name/match_familyname_fullfont</a>)</summary><div>
-
-
-* 🔥 **FAIL** On the 'name' table, the full font name 'Noto Sans Old Hungarian Regular' does not begin with the font family name 'Noto Sans OldHung' in platformID 3, encodingID 1, languageID 1033(0409), and nameID 1. [code: mismatch-font-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -144,32 +97,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3634 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1401, 677)"/>
 <path d=""  transform="translate(1661, 677)"/>
-<path d=""  transform="translate(1921, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1921, 677)"/>
 <path d=""  transform="translate(2493, 677)"/>
-<path d=""  transform="translate(2753, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(2753, 677)"/>
 <path d=""  transform="translate(3197, 677)"/>
-<path d=""  transform="translate(3197, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(3197, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3662 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1401, 677)"/>
 <path d=""  transform="translate(1661, 677)"/>
-<path d=""  transform="translate(1921, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1921, 677)"/>
 <path d=""  transform="translate(2521, 677)"/>
-<path d=""  transform="translate(2781, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(2781, 677)"/>
 <path d=""  transform="translate(3225, 677)"/>
-<path d=""  transform="translate(3225, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(3225, 677)"/>
 </svg>
 
 
@@ -192,28 +145,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3628 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1576, 677)"/>
 <path d=""  transform="translate(1836, 677)"/>
-<path d=""  transform="translate(2096, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2096, 677)"/>
 <path d=""  transform="translate(2668, 677)"/>
-<path d=""  transform="translate(2928, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L377.0,600.0L635.0,505.0L676.0,417.0L481.0,285.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0ZM450.0,354.0L580.0,441.0L379.0,516.0L450.0,354.0Z"  transform="translate(2928, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3656 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1576, 677)"/>
 <path d=""  transform="translate(1836, 677)"/>
-<path d=""  transform="translate(2096, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2096, 677)"/>
 <path d=""  transform="translate(2696, 677)"/>
-<path d=""  transform="translate(2956, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L377.0,600.0L635.0,505.0L676.0,417.0L481.0,285.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0ZM450.0,354.0L580.0,441.0L379.0,516.0L450.0,354.0Z"  transform="translate(2956, 677)"/>
 </svg>
 
 
@@ -236,28 +189,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3737 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1591, 677)"/>
 <path d=""  transform="translate(1851, 677)"/>
-<path d=""  transform="translate(2111, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2111, 677)"/>
 <path d=""  transform="translate(2683, 677)"/>
-<path d=""  transform="translate(2943, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L564.0,600.0L762.0,409.0L762.0,320.0L532.0,232.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0ZM532.0,316.0L686.0,373.0L532.0,523.0L532.0,316.0Z"  transform="translate(2943, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3765 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1591, 677)"/>
 <path d=""  transform="translate(1851, 677)"/>
-<path d=""  transform="translate(2111, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2111, 677)"/>
 <path d=""  transform="translate(2711, 677)"/>
-<path d=""  transform="translate(2971, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L564.0,600.0L762.0,409.0L762.0,320.0L532.0,232.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0ZM532.0,316.0L686.0,373.0L532.0,523.0L532.0,316.0Z"  transform="translate(2971, 677)"/>
 </svg>
 
 
@@ -280,44 +233,44 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5148 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1431, 677)"/>
 <path d=""  transform="translate(1691, 677)"/>
 <path d=""  transform="translate(1691, 677)"/>
-<path d=""  transform="translate(1951, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1951, 677)"/>
 <path d=""  transform="translate(2418, 677)"/>
 <path d=""  transform="translate(2678, 677)"/>
-<path d=""  transform="translate(2938, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2938, 677)"/>
 <path d=""  transform="translate(3510, 677)"/>
-<path d=""  transform="translate(3770, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3770, 677)"/>
 <path d=""  transform="translate(4214, 677)"/>
-<path d=""  transform="translate(4214, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(4214, 677)"/>
 <path d=""  transform="translate(4681, 677)"/>
-<path d=""  transform="translate(4681, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(4681, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5176 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(444, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
 <path d=""  transform="translate(704, 677)"/>
-<path d=""  transform="translate(964, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(964, 677)"/>
 <path d=""  transform="translate(1431, 677)"/>
 <path d=""  transform="translate(1691, 677)"/>
 <path d=""  transform="translate(1691, 677)"/>
-<path d=""  transform="translate(1951, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1951, 677)"/>
 <path d=""  transform="translate(2418, 677)"/>
 <path d=""  transform="translate(2678, 677)"/>
-<path d=""  transform="translate(2938, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2938, 677)"/>
 <path d=""  transform="translate(3538, 677)"/>
-<path d=""  transform="translate(3798, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3798, 677)"/>
 <path d=""  transform="translate(4242, 677)"/>
-<path d=""  transform="translate(4242, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(4242, 677)"/>
 <path d=""  transform="translate(4709, 677)"/>
-<path d=""  transform="translate(4709, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(4709, 677)"/>
 </svg>
 
 
@@ -340,32 +293,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3992 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(433, 677)"/>
 <path d=""  transform="translate(693, 677)"/>
 <path d=""  transform="translate(693, 677)"/>
-<path d=""  transform="translate(953, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(953, 677)"/>
 <path d=""  transform="translate(1580, 677)"/>
 <path d=""  transform="translate(1840, 677)"/>
-<path d=""  transform="translate(2100, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2100, 677)"/>
 <path d=""  transform="translate(2672, 677)"/>
-<path d=""  transform="translate(2932, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(2932, 677)"/>
 <path d=""  transform="translate(3365, 677)"/>
-<path d=""  transform="translate(3365, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(3365, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4020 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(433, 677)"/>
 <path d=""  transform="translate(693, 677)"/>
 <path d=""  transform="translate(693, 677)"/>
-<path d=""  transform="translate(953, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(953, 677)"/>
 <path d=""  transform="translate(1580, 677)"/>
 <path d=""  transform="translate(1840, 677)"/>
-<path d=""  transform="translate(2100, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2100, 677)"/>
 <path d=""  transform="translate(2700, 677)"/>
-<path d=""  transform="translate(2960, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(2960, 677)"/>
 <path d=""  transform="translate(3393, 677)"/>
-<path d=""  transform="translate(3393, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(3393, 677)"/>
 </svg>
 
 
@@ -388,28 +341,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3500 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1502, 677)"/>
 <path d=""  transform="translate(1762, 677)"/>
-<path d=""  transform="translate(2022, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2022, 677)"/>
 <path d=""  transform="translate(2594, 677)"/>
-<path d=""  transform="translate(2854, 677)"/>
+<path d="M118.0,0.0L325.0,311.0L300.0,348.0L98.0,246.0L30.0,302.0L109.0,600.0L229.0,600.0L378.0,371.0L527.0,600.0L621.0,600.0L429.0,313.0L636.0,0.0L535.0,0.0L375.0,253.0L212.0,0.0L118.0,0.0ZM121.0,342.0L259.0,408.0L173.0,536.0L121.0,342.0Z"  transform="translate(2854, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3528 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1502, 677)"/>
 <path d=""  transform="translate(1762, 677)"/>
-<path d=""  transform="translate(2022, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2022, 677)"/>
 <path d=""  transform="translate(2622, 677)"/>
-<path d=""  transform="translate(2882, 677)"/>
+<path d="M118.0,0.0L325.0,311.0L300.0,348.0L98.0,246.0L30.0,302.0L109.0,600.0L229.0,600.0L378.0,371.0L527.0,600.0L621.0,600.0L429.0,313.0L636.0,0.0L535.0,0.0L375.0,253.0L212.0,0.0L118.0,0.0ZM121.0,342.0L259.0,408.0L173.0,536.0L121.0,342.0Z"  transform="translate(2882, 677)"/>
 </svg>
 
 
@@ -432,32 +385,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3770 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1469, 677)"/>
 <path d=""  transform="translate(1729, 677)"/>
-<path d=""  transform="translate(1989, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1989, 677)"/>
 <path d=""  transform="translate(2561, 677)"/>
-<path d=""  transform="translate(2821, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2821, 677)"/>
 <path d=""  transform="translate(3359, 677)"/>
-<path d=""  transform="translate(3359, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3359, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3798 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1469, 677)"/>
 <path d=""  transform="translate(1729, 677)"/>
-<path d=""  transform="translate(1989, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1989, 677)"/>
 <path d=""  transform="translate(2589, 677)"/>
-<path d=""  transform="translate(2849, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2849, 677)"/>
 <path d=""  transform="translate(3387, 677)"/>
-<path d=""  transform="translate(3387, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3387, 677)"/>
 </svg>
 
 
@@ -480,32 +433,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3852 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1510, 677)"/>
 <path d=""  transform="translate(1770, 677)"/>
-<path d=""  transform="translate(2030, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2030, 677)"/>
 <path d=""  transform="translate(2602, 677)"/>
-<path d=""  transform="translate(2862, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2862, 677)"/>
 <path d=""  transform="translate(3400, 677)"/>
-<path d=""  transform="translate(3400, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3400, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3880 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1510, 677)"/>
 <path d=""  transform="translate(1770, 677)"/>
-<path d=""  transform="translate(2030, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2030, 677)"/>
 <path d=""  transform="translate(2630, 677)"/>
-<path d=""  transform="translate(2890, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2890, 677)"/>
 <path d=""  transform="translate(3428, 677)"/>
-<path d=""  transform="translate(3428, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3428, 677)"/>
 </svg>
 
 
@@ -528,32 +481,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3894 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1531, 677)"/>
 <path d=""  transform="translate(1791, 677)"/>
-<path d=""  transform="translate(2051, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2051, 677)"/>
 <path d=""  transform="translate(2623, 677)"/>
-<path d=""  transform="translate(2883, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2883, 677)"/>
 <path d=""  transform="translate(3421, 677)"/>
-<path d=""  transform="translate(3421, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3421, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3922 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1531, 677)"/>
 <path d=""  transform="translate(1791, 677)"/>
-<path d=""  transform="translate(2051, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2051, 677)"/>
 <path d=""  transform="translate(2651, 677)"/>
-<path d=""  transform="translate(2911, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2911, 677)"/>
 <path d=""  transform="translate(3449, 677)"/>
-<path d=""  transform="translate(3449, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3449, 677)"/>
 </svg>
 
 
@@ -576,32 +529,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3882 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1525, 677)"/>
 <path d=""  transform="translate(1785, 677)"/>
-<path d=""  transform="translate(2045, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2045, 677)"/>
 <path d=""  transform="translate(2617, 677)"/>
-<path d=""  transform="translate(2877, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2877, 677)"/>
 <path d=""  transform="translate(3415, 677)"/>
-<path d=""  transform="translate(3415, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3415, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3910 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1525, 677)"/>
 <path d=""  transform="translate(1785, 677)"/>
-<path d=""  transform="translate(2045, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2045, 677)"/>
 <path d=""  transform="translate(2645, 677)"/>
-<path d=""  transform="translate(2905, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L111.0,0.0L10.0,0.0Z"  transform="translate(2905, 677)"/>
 <path d=""  transform="translate(3443, 677)"/>
-<path d=""  transform="translate(3443, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3443, 677)"/>
 </svg>
 
 
@@ -624,32 +577,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3752 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(447, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
-<path d=""  transform="translate(967, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(967, 677)"/>
 <path d=""  transform="translate(1460, 677)"/>
 <path d=""  transform="translate(1720, 677)"/>
-<path d=""  transform="translate(1980, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1980, 677)"/>
 <path d=""  transform="translate(2552, 677)"/>
-<path d=""  transform="translate(2812, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(2812, 677)"/>
 <path d=""  transform="translate(3259, 677)"/>
-<path d=""  transform="translate(3259, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3259, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3780 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(447, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
-<path d=""  transform="translate(967, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(967, 677)"/>
 <path d=""  transform="translate(1460, 677)"/>
 <path d=""  transform="translate(1720, 677)"/>
-<path d=""  transform="translate(1980, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1980, 677)"/>
 <path d=""  transform="translate(2580, 677)"/>
-<path d=""  transform="translate(2840, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(2840, 677)"/>
 <path d=""  transform="translate(3287, 677)"/>
-<path d=""  transform="translate(3287, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3287, 677)"/>
 </svg>
 
 
@@ -672,32 +625,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3704 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(447, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
-<path d=""  transform="translate(967, 677)"/>
+<path d="M206.0,0.0L15.0,166.0L64.0,224.0L191.0,112.0L191.0,600.0L263.0,600.0L454.0,434.0L405.0,376.0L278.0,488.0L278.0,0.0L206.0,0.0Z"  transform="translate(967, 677)"/>
 <path d=""  transform="translate(1436, 677)"/>
 <path d=""  transform="translate(1696, 677)"/>
-<path d=""  transform="translate(1956, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1956, 677)"/>
 <path d=""  transform="translate(2528, 677)"/>
-<path d=""  transform="translate(2788, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(2788, 677)"/>
 <path d=""  transform="translate(3235, 677)"/>
-<path d=""  transform="translate(3235, 677)"/>
+<path d="M206.0,0.0L15.0,166.0L64.0,224.0L191.0,112.0L191.0,600.0L263.0,600.0L454.0,434.0L405.0,376.0L278.0,488.0L278.0,0.0L206.0,0.0Z"  transform="translate(3235, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3732 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(447, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
 <path d=""  transform="translate(707, 677)"/>
-<path d=""  transform="translate(967, 677)"/>
+<path d="M206.0,0.0L15.0,166.0L64.0,224.0L191.0,112.0L191.0,600.0L263.0,600.0L454.0,434.0L405.0,376.0L278.0,488.0L278.0,0.0L206.0,0.0Z"  transform="translate(967, 677)"/>
 <path d=""  transform="translate(1436, 677)"/>
 <path d=""  transform="translate(1696, 677)"/>
-<path d=""  transform="translate(1956, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1956, 677)"/>
 <path d=""  transform="translate(2556, 677)"/>
-<path d=""  transform="translate(2816, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(2816, 677)"/>
 <path d=""  transform="translate(3263, 677)"/>
-<path d=""  transform="translate(3263, 677)"/>
+<path d="M206.0,0.0L15.0,166.0L64.0,224.0L191.0,112.0L191.0,600.0L263.0,600.0L454.0,434.0L405.0,376.0L278.0,488.0L278.0,0.0L206.0,0.0Z"  transform="translate(3263, 677)"/>
 </svg>
 
 
@@ -720,32 +673,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3990 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1579, 677)"/>
 <path d=""  transform="translate(1839, 677)"/>
-<path d=""  transform="translate(2099, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2099, 677)"/>
 <path d=""  transform="translate(2671, 677)"/>
-<path d=""  transform="translate(2931, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(2931, 677)"/>
 <path d=""  transform="translate(3546, 677)"/>
-<path d=""  transform="translate(3546, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3546, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4018 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1579, 677)"/>
 <path d=""  transform="translate(1839, 677)"/>
-<path d=""  transform="translate(2099, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2099, 677)"/>
 <path d=""  transform="translate(2699, 677)"/>
-<path d=""  transform="translate(2959, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(2959, 677)"/>
 <path d=""  transform="translate(3574, 677)"/>
-<path d=""  transform="translate(3574, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3574, 677)"/>
 </svg>
 
 
@@ -768,40 +721,40 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4942 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1587, 677)"/>
 <path d=""  transform="translate(1847, 677)"/>
 <path d=""  transform="translate(1847, 677)"/>
-<path d=""  transform="translate(2107, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2107, 677)"/>
 <path d=""  transform="translate(2527, 677)"/>
 <path d=""  transform="translate(2787, 677)"/>
-<path d=""  transform="translate(3047, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(3047, 677)"/>
 <path d=""  transform="translate(3619, 677)"/>
-<path d=""  transform="translate(3879, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(3879, 677)"/>
 <path d=""  transform="translate(4494, 677)"/>
-<path d=""  transform="translate(4494, 677)"/>
+<path d="M357.0,-20.0Q252.0,28.0 187.5,75.0Q123.0,122.0 94.0,176.0Q65.0,230.0 65.0,300.0Q65.0,370.0 94.5,424.0Q124.0,478.0 190.0,526.0L125.0,600.0L180.0,649.0L252.0,566.0Q274.0,579.0 299.5,592.0Q325.0,605.0 353.0,618.0L398.0,551.0Q372.0,538.0 348.5,526.5Q325.0,515.0 305.0,504.0L383.0,414.0L329.0,367.0L244.0,465.0Q193.0,428.0 173.5,389.0Q154.0,350.0 154.0,300.0Q154.0,246.0 175.0,205.0Q196.0,164.0 248.5,126.5Q301.0,89.0 394.0,47.0L357.0,-20.0Z"  transform="translate(4494, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4970 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1587, 677)"/>
 <path d=""  transform="translate(1847, 677)"/>
 <path d=""  transform="translate(1847, 677)"/>
-<path d=""  transform="translate(2107, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2107, 677)"/>
 <path d=""  transform="translate(2527, 677)"/>
 <path d=""  transform="translate(2787, 677)"/>
-<path d=""  transform="translate(3047, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(3047, 677)"/>
 <path d=""  transform="translate(3647, 677)"/>
-<path d=""  transform="translate(3907, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L171.0,600.0L435.0,428.0L435.0,600.0L520.0,600.0L520.0,0.0L444.0,0.0L180.0,170.0L180.0,0.0L95.0,0.0ZM435.0,91.0L435.0,343.0L180.0,510.0L180.0,255.0L435.0,91.0Z"  transform="translate(3907, 677)"/>
 <path d=""  transform="translate(4522, 677)"/>
-<path d=""  transform="translate(4522, 677)"/>
+<path d="M357.0,-20.0Q252.0,28.0 187.5,75.0Q123.0,122.0 94.0,176.0Q65.0,230.0 65.0,300.0Q65.0,370.0 94.5,424.0Q124.0,478.0 190.0,526.0L125.0,600.0L180.0,649.0L252.0,566.0Q274.0,579.0 299.5,592.0Q325.0,605.0 353.0,618.0L398.0,551.0Q372.0,538.0 348.5,526.5Q325.0,515.0 305.0,504.0L383.0,414.0L329.0,367.0L244.0,465.0Q193.0,428.0 173.5,389.0Q154.0,350.0 154.0,300.0Q154.0,246.0 175.0,205.0Q196.0,164.0 248.5,126.5Q301.0,89.0 394.0,47.0L357.0,-20.0Z"  transform="translate(4522, 677)"/>
 </svg>
 
 
@@ -824,32 +777,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4070 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(437, 677)"/>
 <path d=""  transform="translate(697, 677)"/>
 <path d=""  transform="translate(697, 677)"/>
-<path d=""  transform="translate(957, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(957, 677)"/>
 <path d=""  transform="translate(1619, 677)"/>
 <path d=""  transform="translate(1879, 677)"/>
-<path d=""  transform="translate(2139, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2139, 677)"/>
 <path d=""  transform="translate(2711, 677)"/>
-<path d=""  transform="translate(2971, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(2971, 677)"/>
 <path d=""  transform="translate(3408, 677)"/>
-<path d=""  transform="translate(3408, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3408, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4098 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(437, 677)"/>
 <path d=""  transform="translate(697, 677)"/>
 <path d=""  transform="translate(697, 677)"/>
-<path d=""  transform="translate(957, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(957, 677)"/>
 <path d=""  transform="translate(1619, 677)"/>
 <path d=""  transform="translate(1879, 677)"/>
-<path d=""  transform="translate(2139, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2139, 677)"/>
 <path d=""  transform="translate(2739, 677)"/>
-<path d=""  transform="translate(2999, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(2999, 677)"/>
 <path d=""  transform="translate(3436, 677)"/>
-<path d=""  transform="translate(3436, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3436, 677)"/>
 </svg>
 
 
@@ -872,32 +825,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3850 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1529, 677)"/>
 <path d=""  transform="translate(1789, 677)"/>
-<path d=""  transform="translate(2049, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2049, 677)"/>
 <path d=""  transform="translate(2621, 677)"/>
-<path d=""  transform="translate(2841, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2841, 677)"/>
 <path d=""  transform="translate(3406, 677)"/>
-<path d=""  transform="translate(3406, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3406, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3878 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1529, 677)"/>
 <path d=""  transform="translate(1789, 677)"/>
-<path d=""  transform="translate(2049, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2049, 677)"/>
 <path d=""  transform="translate(2649, 677)"/>
-<path d=""  transform="translate(2869, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2869, 677)"/>
 <path d=""  transform="translate(3434, 677)"/>
-<path d=""  transform="translate(3434, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3434, 677)"/>
 </svg>
 
 
@@ -920,32 +873,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3824 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1496, 677)"/>
 <path d=""  transform="translate(1756, 677)"/>
-<path d=""  transform="translate(2016, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2016, 677)"/>
 <path d=""  transform="translate(2588, 677)"/>
-<path d=""  transform="translate(2848, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2848, 677)"/>
 <path d=""  transform="translate(3413, 677)"/>
-<path d=""  transform="translate(3413, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3413, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3852 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1496, 677)"/>
 <path d=""  transform="translate(1756, 677)"/>
-<path d=""  transform="translate(2016, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2016, 677)"/>
 <path d=""  transform="translate(2616, 677)"/>
-<path d=""  transform="translate(2876, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2876, 677)"/>
 <path d=""  transform="translate(3441, 677)"/>
-<path d=""  transform="translate(3441, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3441, 677)"/>
 </svg>
 
 
@@ -968,32 +921,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3906 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1537, 677)"/>
 <path d=""  transform="translate(1797, 677)"/>
-<path d=""  transform="translate(2057, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2057, 677)"/>
 <path d=""  transform="translate(2629, 677)"/>
-<path d=""  transform="translate(2889, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2889, 677)"/>
 <path d=""  transform="translate(3454, 677)"/>
-<path d=""  transform="translate(3454, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3454, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3934 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1537, 677)"/>
 <path d=""  transform="translate(1797, 677)"/>
-<path d=""  transform="translate(2057, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2057, 677)"/>
 <path d=""  transform="translate(2657, 677)"/>
-<path d=""  transform="translate(2917, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2917, 677)"/>
 <path d=""  transform="translate(3482, 677)"/>
-<path d=""  transform="translate(3482, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3482, 677)"/>
 </svg>
 
 
@@ -1016,32 +969,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3948 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1558, 677)"/>
 <path d=""  transform="translate(1818, 677)"/>
-<path d=""  transform="translate(2078, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2078, 677)"/>
 <path d=""  transform="translate(2650, 677)"/>
-<path d=""  transform="translate(2910, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2910, 677)"/>
 <path d=""  transform="translate(3475, 677)"/>
-<path d=""  transform="translate(3475, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3475, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3976 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(565, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
 <path d=""  transform="translate(825, 677)"/>
-<path d=""  transform="translate(1085, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1085, 677)"/>
 <path d=""  transform="translate(1558, 677)"/>
 <path d=""  transform="translate(1818, 677)"/>
-<path d=""  transform="translate(2078, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2078, 677)"/>
 <path d=""  transform="translate(2678, 677)"/>
-<path d=""  transform="translate(2938, 677)"/>
+<path d="M4.0,0.0L247.0,600.0L318.0,600.0L560.0,0.0L473.0,0.0L326.0,371.0Q309.0,415.0 299.5,442.5Q290.0,470.0 284.0,496.0L280.0,496.0Q274.0,471.0 264.0,439.5Q254.0,408.0 240.0,371.0L224.0,330.0L352.0,0.0L265.0,0.0L182.0,225.0L93.0,0.0L4.0,0.0Z"  transform="translate(2938, 677)"/>
 <path d=""  transform="translate(3503, 677)"/>
-<path d=""  transform="translate(3503, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3503, 677)"/>
 </svg>
 
 
@@ -1064,32 +1017,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3832 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1500, 677)"/>
 <path d=""  transform="translate(1760, 677)"/>
-<path d=""  transform="translate(2020, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2020, 677)"/>
 <path d=""  transform="translate(2592, 677)"/>
-<path d=""  transform="translate(2852, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2852, 677)"/>
 <path d=""  transform="translate(3388, 677)"/>
-<path d=""  transform="translate(3388, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3388, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3860 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1500, 677)"/>
 <path d=""  transform="translate(1760, 677)"/>
-<path d=""  transform="translate(2020, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2020, 677)"/>
 <path d=""  transform="translate(2620, 677)"/>
-<path d=""  transform="translate(2880, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2880, 677)"/>
 <path d=""  transform="translate(3416, 677)"/>
-<path d=""  transform="translate(3416, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3416, 677)"/>
 </svg>
 
 
@@ -1112,32 +1065,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3766 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1467, 677)"/>
 <path d=""  transform="translate(1727, 677)"/>
-<path d=""  transform="translate(1987, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1987, 677)"/>
 <path d=""  transform="translate(2559, 677)"/>
-<path d=""  transform="translate(2819, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2819, 677)"/>
 <path d=""  transform="translate(3355, 677)"/>
-<path d=""  transform="translate(3355, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3355, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3794 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1467, 677)"/>
 <path d=""  transform="translate(1727, 677)"/>
-<path d=""  transform="translate(1987, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1987, 677)"/>
 <path d=""  transform="translate(2587, 677)"/>
-<path d=""  transform="translate(2847, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2847, 677)"/>
 <path d=""  transform="translate(3383, 677)"/>
-<path d=""  transform="translate(3383, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3383, 677)"/>
 </svg>
 
 
@@ -1160,32 +1113,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3848 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1508, 677)"/>
 <path d=""  transform="translate(1768, 677)"/>
-<path d=""  transform="translate(2028, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2028, 677)"/>
 <path d=""  transform="translate(2600, 677)"/>
-<path d=""  transform="translate(2860, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2860, 677)"/>
 <path d=""  transform="translate(3396, 677)"/>
-<path d=""  transform="translate(3396, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3396, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3876 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1508, 677)"/>
 <path d=""  transform="translate(1768, 677)"/>
-<path d=""  transform="translate(2028, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2028, 677)"/>
 <path d=""  transform="translate(2628, 677)"/>
-<path d=""  transform="translate(2888, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2888, 677)"/>
 <path d=""  transform="translate(3424, 677)"/>
-<path d=""  transform="translate(3424, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3424, 677)"/>
 </svg>
 
 
@@ -1208,32 +1161,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3890 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1529, 677)"/>
 <path d=""  transform="translate(1789, 677)"/>
-<path d=""  transform="translate(2049, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2049, 677)"/>
 <path d=""  transform="translate(2621, 677)"/>
-<path d=""  transform="translate(2881, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2881, 677)"/>
 <path d=""  transform="translate(3417, 677)"/>
-<path d=""  transform="translate(3417, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3417, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3918 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(536, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
 <path d=""  transform="translate(796, 677)"/>
-<path d=""  transform="translate(1056, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1056, 677)"/>
 <path d=""  transform="translate(1529, 677)"/>
 <path d=""  transform="translate(1789, 677)"/>
-<path d=""  transform="translate(2049, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2049, 677)"/>
 <path d=""  transform="translate(2649, 677)"/>
-<path d=""  transform="translate(2909, 677)"/>
+<path d="M44.0,0.0L213.0,154.0L40.0,311.0L212.0,455.0L42.0,600.0L150.0,600.0L268.0,501.0L385.0,600.0L494.0,600.0L323.0,455.0L496.0,311.0L323.0,154.0L492.0,0.0L384.0,0.0L268.0,105.0L151.0,0.0L44.0,0.0ZM268.0,205.0L381.0,310.0L268.0,407.0L153.0,310.0L268.0,205.0Z"  transform="translate(2909, 677)"/>
 <path d=""  transform="translate(3445, 677)"/>
-<path d=""  transform="translate(3445, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3445, 677)"/>
 </svg>
 
 
@@ -1256,32 +1209,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3590 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(452, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
-<path d=""  transform="translate(972, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L172.0,600.0L396.0,383.0L342.0,331.0L182.0,485.0L182.0,0.0L95.0,0.0Z"  transform="translate(972, 677)"/>
 <path d=""  transform="translate(1379, 677)"/>
 <path d=""  transform="translate(1639, 677)"/>
-<path d=""  transform="translate(1899, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1899, 677)"/>
 <path d=""  transform="translate(2471, 677)"/>
-<path d=""  transform="translate(2731, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(2731, 677)"/>
 <path d=""  transform="translate(3183, 677)"/>
-<path d=""  transform="translate(3183, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L172.0,600.0L396.0,383.0L342.0,331.0L182.0,485.0L182.0,0.0L95.0,0.0Z"  transform="translate(3183, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3618 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(452, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
-<path d=""  transform="translate(972, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L172.0,600.0L396.0,383.0L342.0,331.0L182.0,485.0L182.0,0.0L95.0,0.0Z"  transform="translate(972, 677)"/>
 <path d=""  transform="translate(1379, 677)"/>
 <path d=""  transform="translate(1639, 677)"/>
-<path d=""  transform="translate(1899, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1899, 677)"/>
 <path d=""  transform="translate(2499, 677)"/>
-<path d=""  transform="translate(2759, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(2759, 677)"/>
 <path d=""  transform="translate(3211, 677)"/>
-<path d=""  transform="translate(3211, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L172.0,600.0L396.0,383.0L342.0,331.0L182.0,485.0L182.0,0.0L95.0,0.0Z"  transform="translate(3211, 677)"/>
 </svg>
 
 
@@ -1304,28 +1257,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3391 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(452, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
-<path d=""  transform="translate(972, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(972, 677)"/>
 <path d=""  transform="translate(1439, 677)"/>
 <path d=""  transform="translate(1699, 677)"/>
-<path d=""  transform="translate(1959, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1959, 677)"/>
 <path d=""  transform="translate(2531, 677)"/>
-<path d=""  transform="translate(2791, 677)"/>
+<path d="M335.0,0.0L335.0,215.0L-2.0,567.0L60.0,621.0L335.0,331.0L335.0,524.0L194.0,590.0L224.0,655.0L341.0,600.0L422.0,600.0L422.0,562.0L570.0,493.0L540.0,428.0L422.0,483.0L422.0,0.0L335.0,0.0Z"  transform="translate(2791, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3419 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(452, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
 <path d=""  transform="translate(712, 677)"/>
-<path d=""  transform="translate(972, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(972, 677)"/>
 <path d=""  transform="translate(1439, 677)"/>
 <path d=""  transform="translate(1699, 677)"/>
-<path d=""  transform="translate(1959, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1959, 677)"/>
 <path d=""  transform="translate(2559, 677)"/>
-<path d=""  transform="translate(2819, 677)"/>
+<path d="M335.0,0.0L335.0,215.0L-2.0,567.0L60.0,621.0L335.0,331.0L335.0,524.0L194.0,590.0L224.0,655.0L341.0,600.0L422.0,600.0L422.0,562.0L570.0,493.0L540.0,428.0L422.0,483.0L422.0,0.0L335.0,0.0Z"  transform="translate(2819, 677)"/>
 </svg>
 
 
@@ -1348,44 +1301,44 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5422 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(421, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
-<path d=""  transform="translate(941, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(941, 677)"/>
 <path d=""  transform="translate(1568, 677)"/>
 <path d=""  transform="translate(1828, 677)"/>
 <path d=""  transform="translate(1828, 677)"/>
-<path d=""  transform="translate(2088, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(2088, 677)"/>
 <path d=""  transform="translate(2555, 677)"/>
 <path d=""  transform="translate(2815, 677)"/>
-<path d=""  transform="translate(3075, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(3075, 677)"/>
 <path d=""  transform="translate(3647, 677)"/>
-<path d=""  transform="translate(3907, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(3907, 677)"/>
 <path d=""  transform="translate(4328, 677)"/>
-<path d=""  transform="translate(4328, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(4328, 677)"/>
 <path d=""  transform="translate(4955, 677)"/>
-<path d=""  transform="translate(4955, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(4955, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5450 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(421, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
-<path d=""  transform="translate(941, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(941, 677)"/>
 <path d=""  transform="translate(1568, 677)"/>
 <path d=""  transform="translate(1828, 677)"/>
 <path d=""  transform="translate(1828, 677)"/>
-<path d=""  transform="translate(2088, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(2088, 677)"/>
 <path d=""  transform="translate(2555, 677)"/>
 <path d=""  transform="translate(2815, 677)"/>
-<path d=""  transform="translate(3075, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(3075, 677)"/>
 <path d=""  transform="translate(3675, 677)"/>
-<path d=""  transform="translate(3935, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(3935, 677)"/>
 <path d=""  transform="translate(4356, 677)"/>
-<path d=""  transform="translate(4356, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(4356, 677)"/>
 <path d=""  transform="translate(4983, 677)"/>
-<path d=""  transform="translate(4983, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(4983, 677)"/>
 </svg>
 
 
@@ -1408,32 +1361,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3648 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(421, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
-<path d=""  transform="translate(941, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(941, 677)"/>
 <path d=""  transform="translate(1408, 677)"/>
 <path d=""  transform="translate(1668, 677)"/>
-<path d=""  transform="translate(1928, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1928, 677)"/>
 <path d=""  transform="translate(2500, 677)"/>
-<path d=""  transform="translate(2760, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(2760, 677)"/>
 <path d=""  transform="translate(3181, 677)"/>
-<path d=""  transform="translate(3181, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3181, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3676 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(421, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
 <path d=""  transform="translate(681, 677)"/>
-<path d=""  transform="translate(941, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(941, 677)"/>
 <path d=""  transform="translate(1408, 677)"/>
 <path d=""  transform="translate(1668, 677)"/>
-<path d=""  transform="translate(1928, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1928, 677)"/>
 <path d=""  transform="translate(2528, 677)"/>
-<path d=""  transform="translate(2788, 677)"/>
+<path d="M148.0,0.0L148.0,558.0L0.0,640.0L29.0,703.0L413.0,492.0L378.0,430.0L235.0,509.0L235.0,0.0L148.0,0.0Z"  transform="translate(2788, 677)"/>
 <path d=""  transform="translate(3209, 677)"/>
-<path d=""  transform="translate(3209, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3209, 677)"/>
 </svg>
 
 
@@ -1456,32 +1409,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3412 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(493, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
-<path d=""  transform="translate(1013, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(1013, 677)"/>
 <path d=""  transform="translate(1290, 677)"/>
 <path d=""  transform="translate(1550, 677)"/>
-<path d=""  transform="translate(1810, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1810, 677)"/>
 <path d=""  transform="translate(2382, 677)"/>
-<path d=""  transform="translate(2642, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(2642, 677)"/>
 <path d=""  transform="translate(3135, 677)"/>
-<path d=""  transform="translate(3135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(3135, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3440 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(493, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
-<path d=""  transform="translate(1013, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(1013, 677)"/>
 <path d=""  transform="translate(1290, 677)"/>
 <path d=""  transform="translate(1550, 677)"/>
-<path d=""  transform="translate(1810, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1810, 677)"/>
 <path d=""  transform="translate(2410, 677)"/>
-<path d=""  transform="translate(2670, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(2670, 677)"/>
 <path d=""  transform="translate(3163, 677)"/>
-<path d=""  transform="translate(3163, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(3163, 677)"/>
 </svg>
 
 
@@ -1504,32 +1457,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4182 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(493, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
-<path d=""  transform="translate(1013, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(1013, 677)"/>
 <path d=""  transform="translate(1675, 677)"/>
 <path d=""  transform="translate(1935, 677)"/>
-<path d=""  transform="translate(2195, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2195, 677)"/>
 <path d=""  transform="translate(2767, 677)"/>
-<path d=""  transform="translate(3027, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3027, 677)"/>
 <path d=""  transform="translate(3520, 677)"/>
-<path d=""  transform="translate(3520, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(3520, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4210 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(493, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
 <path d=""  transform="translate(753, 677)"/>
-<path d=""  transform="translate(1013, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(1013, 677)"/>
 <path d=""  transform="translate(1675, 677)"/>
 <path d=""  transform="translate(1935, 677)"/>
-<path d=""  transform="translate(2195, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2195, 677)"/>
 <path d=""  transform="translate(2795, 677)"/>
-<path d=""  transform="translate(3055, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3055, 677)"/>
 <path d=""  transform="translate(3548, 677)"/>
-<path d=""  transform="translate(3548, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(3548, 677)"/>
 </svg>
 
 
@@ -1552,28 +1505,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3627 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1576, 677)"/>
 <path d=""  transform="translate(1836, 677)"/>
-<path d=""  transform="translate(2096, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2096, 677)"/>
 <path d=""  transform="translate(2668, 677)"/>
-<path d=""  transform="translate(2928, 677)"/>
+<path d="M92.0,0.0L219.0,285.0L24.0,417.0L65.0,505.0L323.0,600.0L429.0,600.0L694.0,0.0L609.0,0.0L444.0,371.0Q425.0,414.0 414.0,444.0Q403.0,474.0 395.0,498.0L391.0,498.0Q385.0,479.0 375.5,453.5Q366.0,428.0 355.0,399.0L526.0,0.0L442.0,0.0L314.0,305.0L273.0,212.0L360.0,0.0L276.0,0.0L231.0,117.0L180.0,0.0L92.0,0.0ZM249.0,355.0L321.0,516.0L120.0,441.0L249.0,355.0Z"  transform="translate(2928, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3655 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1576, 677)"/>
 <path d=""  transform="translate(1836, 677)"/>
-<path d=""  transform="translate(2096, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2096, 677)"/>
 <path d=""  transform="translate(2696, 677)"/>
-<path d=""  transform="translate(2956, 677)"/>
+<path d="M92.0,0.0L219.0,285.0L24.0,417.0L65.0,505.0L323.0,600.0L429.0,600.0L694.0,0.0L609.0,0.0L444.0,371.0Q425.0,414.0 414.0,444.0Q403.0,474.0 395.0,498.0L391.0,498.0Q385.0,479.0 375.5,453.5Q366.0,428.0 355.0,399.0L526.0,0.0L442.0,0.0L314.0,305.0L273.0,212.0L360.0,0.0L276.0,0.0L231.0,117.0L180.0,0.0L92.0,0.0ZM249.0,355.0L321.0,516.0L120.0,441.0L249.0,355.0Z"  transform="translate(2956, 677)"/>
 </svg>
 
 
@@ -1596,32 +1549,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3962 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1565, 677)"/>
 <path d=""  transform="translate(1825, 677)"/>
-<path d=""  transform="translate(2085, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2085, 677)"/>
 <path d=""  transform="translate(2657, 677)"/>
-<path d=""  transform="translate(2917, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2917, 677)"/>
 <path d=""  transform="translate(3529, 677)"/>
-<path d=""  transform="translate(3529, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(3529, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3990 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1565, 677)"/>
 <path d=""  transform="translate(1825, 677)"/>
-<path d=""  transform="translate(2085, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2085, 677)"/>
 <path d=""  transform="translate(2685, 677)"/>
-<path d=""  transform="translate(2945, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2945, 677)"/>
 <path d=""  transform="translate(3557, 677)"/>
-<path d=""  transform="translate(3557, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(3557, 677)"/>
 </svg>
 
 
@@ -1644,32 +1597,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3918 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1543, 677)"/>
 <path d=""  transform="translate(1803, 677)"/>
-<path d=""  transform="translate(2063, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2063, 677)"/>
 <path d=""  transform="translate(2635, 677)"/>
-<path d=""  transform="translate(2895, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2895, 677)"/>
 <path d=""  transform="translate(3507, 677)"/>
-<path d=""  transform="translate(3507, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3507, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3946 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1543, 677)"/>
 <path d=""  transform="translate(1803, 677)"/>
-<path d=""  transform="translate(2063, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2063, 677)"/>
 <path d=""  transform="translate(2663, 677)"/>
-<path d=""  transform="translate(2923, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2923, 677)"/>
 <path d=""  transform="translate(3535, 677)"/>
-<path d=""  transform="translate(3535, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3535, 677)"/>
 </svg>
 
 
@@ -1692,32 +1645,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4042 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1605, 677)"/>
 <path d=""  transform="translate(1865, 677)"/>
-<path d=""  transform="translate(2125, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2125, 677)"/>
 <path d=""  transform="translate(2697, 677)"/>
-<path d=""  transform="translate(2957, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2957, 677)"/>
 <path d=""  transform="translate(3569, 677)"/>
-<path d=""  transform="translate(3569, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3569, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4070 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1605, 677)"/>
 <path d=""  transform="translate(1865, 677)"/>
-<path d=""  transform="translate(2125, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2125, 677)"/>
 <path d=""  transform="translate(2725, 677)"/>
-<path d=""  transform="translate(2985, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2985, 677)"/>
 <path d=""  transform="translate(3597, 677)"/>
-<path d=""  transform="translate(3597, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3597, 677)"/>
 </svg>
 
 
@@ -1740,32 +1693,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3970 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1599, 677)"/>
 <path d=""  transform="translate(1859, 677)"/>
-<path d=""  transform="translate(2119, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2119, 677)"/>
 <path d=""  transform="translate(2691, 677)"/>
-<path d=""  transform="translate(2891, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2891, 677)"/>
 <path d=""  transform="translate(3503, 677)"/>
-<path d=""  transform="translate(3503, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3503, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3998 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(612, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
 <path d=""  transform="translate(872, 677)"/>
-<path d=""  transform="translate(1132, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1132, 677)"/>
 <path d=""  transform="translate(1599, 677)"/>
 <path d=""  transform="translate(1859, 677)"/>
-<path d=""  transform="translate(2119, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2119, 677)"/>
 <path d=""  transform="translate(2719, 677)"/>
-<path d=""  transform="translate(2919, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(2919, 677)"/>
 <path d=""  transform="translate(3531, 677)"/>
-<path d=""  transform="translate(3531, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3531, 677)"/>
 </svg>
 
 
@@ -1788,32 +1741,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1384, 677)"/>
 <path d=""  transform="translate(1644, 677)"/>
-<path d=""  transform="translate(1904, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1904, 677)"/>
 <path d=""  transform="translate(2476, 677)"/>
-<path d=""  transform="translate(2736, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2736, 677)"/>
 <path d=""  transform="translate(3156, 677)"/>
-<path d=""  transform="translate(3156, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3156, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3628 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1384, 677)"/>
 <path d=""  transform="translate(1644, 677)"/>
-<path d=""  transform="translate(1904, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1904, 677)"/>
 <path d=""  transform="translate(2504, 677)"/>
-<path d=""  transform="translate(2764, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2764, 677)"/>
 <path d=""  transform="translate(3184, 677)"/>
-<path d=""  transform="translate(3184, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3184, 677)"/>
 </svg>
 
 
@@ -1836,32 +1789,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3606 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1387, 677)"/>
 <path d=""  transform="translate(1647, 677)"/>
-<path d=""  transform="translate(1907, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1907, 677)"/>
 <path d=""  transform="translate(2479, 677)"/>
-<path d=""  transform="translate(2739, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2739, 677)"/>
 <path d=""  transform="translate(3159, 677)"/>
-<path d=""  transform="translate(3159, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(3159, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3634 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1387, 677)"/>
 <path d=""  transform="translate(1647, 677)"/>
-<path d=""  transform="translate(1907, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1907, 677)"/>
 <path d=""  transform="translate(2507, 677)"/>
-<path d=""  transform="translate(2767, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2767, 677)"/>
 <path d=""  transform="translate(3187, 677)"/>
-<path d=""  transform="translate(3187, 677)"/>
+<path d="M180.0,0.0L180.0,488.0L53.0,376.0L4.0,434.0L195.0,600.0L252.0,600.0L443.0,434.0L394.0,376.0L267.0,488.0L267.0,0.0L180.0,0.0Z"  transform="translate(3187, 677)"/>
 </svg>
 
 
@@ -1884,32 +1837,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3586 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1377, 677)"/>
 <path d=""  transform="translate(1637, 677)"/>
-<path d=""  transform="translate(1897, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1897, 677)"/>
 <path d=""  transform="translate(2469, 677)"/>
-<path d=""  transform="translate(2729, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2729, 677)"/>
 <path d=""  transform="translate(3149, 677)"/>
-<path d=""  transform="translate(3149, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(3149, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3614 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1377, 677)"/>
 <path d=""  transform="translate(1637, 677)"/>
-<path d=""  transform="translate(1897, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1897, 677)"/>
 <path d=""  transform="translate(2497, 677)"/>
-<path d=""  transform="translate(2757, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2757, 677)"/>
 <path d=""  transform="translate(3177, 677)"/>
-<path d=""  transform="translate(3177, 677)"/>
+<path d="M175.0,0.0L175.0,290.0L26.0,366.0L59.0,434.0L175.0,374.0L175.0,600.0L262.0,600.0L262.0,328.0L411.0,251.0L377.0,186.0L262.0,245.0L262.0,0.0L175.0,0.0Z"  transform="translate(3177, 677)"/>
 </svg>
 
 
@@ -1932,32 +1885,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3612 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M180.0,0.0L180.0,185.0L29.0,273.0L58.0,336.0L180.0,269.0L180.0,372.0L29.0,459.0L58.0,522.0L180.0,454.0L180.0,600.0L267.0,600.0L267.0,409.0L418.0,324.0L383.0,262.0L267.0,328.0L267.0,223.0L418.0,138.0L383.0,76.0L267.0,141.0L267.0,0.0L180.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1390, 677)"/>
 <path d=""  transform="translate(1650, 677)"/>
-<path d=""  transform="translate(1910, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1910, 677)"/>
 <path d=""  transform="translate(2482, 677)"/>
-<path d=""  transform="translate(2742, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2742, 677)"/>
 <path d=""  transform="translate(3162, 677)"/>
-<path d=""  transform="translate(3162, 677)"/>
+<path d="M180.0,0.0L180.0,185.0L29.0,273.0L58.0,336.0L180.0,269.0L180.0,372.0L29.0,459.0L58.0,522.0L180.0,454.0L180.0,600.0L267.0,600.0L267.0,409.0L418.0,324.0L383.0,262.0L267.0,328.0L267.0,223.0L418.0,138.0L383.0,76.0L267.0,141.0L267.0,0.0L180.0,0.0Z"  transform="translate(3162, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3640 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M180.0,0.0L180.0,185.0L29.0,273.0L58.0,336.0L180.0,269.0L180.0,372.0L29.0,459.0L58.0,522.0L180.0,454.0L180.0,600.0L267.0,600.0L267.0,409.0L418.0,324.0L383.0,262.0L267.0,328.0L267.0,223.0L418.0,138.0L383.0,76.0L267.0,141.0L267.0,0.0L180.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1390, 677)"/>
 <path d=""  transform="translate(1650, 677)"/>
-<path d=""  transform="translate(1910, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1910, 677)"/>
 <path d=""  transform="translate(2510, 677)"/>
-<path d=""  transform="translate(2770, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2770, 677)"/>
 <path d=""  transform="translate(3190, 677)"/>
-<path d=""  transform="translate(3190, 677)"/>
+<path d="M180.0,0.0L180.0,185.0L29.0,273.0L58.0,336.0L180.0,269.0L180.0,372.0L29.0,459.0L58.0,522.0L180.0,454.0L180.0,600.0L267.0,600.0L267.0,409.0L418.0,324.0L383.0,262.0L267.0,328.0L267.0,223.0L418.0,138.0L383.0,76.0L267.0,141.0L267.0,0.0L180.0,0.0Z"  transform="translate(3190, 677)"/>
 </svg>
 
 
@@ -1980,32 +1933,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3616 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1392, 677)"/>
 <path d=""  transform="translate(1652, 677)"/>
-<path d=""  transform="translate(1912, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1912, 677)"/>
 <path d=""  transform="translate(2484, 677)"/>
-<path d=""  transform="translate(2744, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2744, 677)"/>
 <path d=""  transform="translate(3164, 677)"/>
-<path d=""  transform="translate(3164, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3164, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3644 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1392, 677)"/>
 <path d=""  transform="translate(1652, 677)"/>
-<path d=""  transform="translate(1912, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1912, 677)"/>
 <path d=""  transform="translate(2512, 677)"/>
-<path d=""  transform="translate(2772, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2772, 677)"/>
 <path d=""  transform="translate(3192, 677)"/>
-<path d=""  transform="translate(3192, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3192, 677)"/>
 </svg>
 
 
@@ -2028,32 +1981,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3698 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1433, 677)"/>
 <path d=""  transform="translate(1693, 677)"/>
-<path d=""  transform="translate(1953, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1953, 677)"/>
 <path d=""  transform="translate(2525, 677)"/>
-<path d=""  transform="translate(2785, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2785, 677)"/>
 <path d=""  transform="translate(3205, 677)"/>
-<path d=""  transform="translate(3205, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3205, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3726 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1433, 677)"/>
 <path d=""  transform="translate(1693, 677)"/>
-<path d=""  transform="translate(1953, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1953, 677)"/>
 <path d=""  transform="translate(2553, 677)"/>
-<path d=""  transform="translate(2813, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2813, 677)"/>
 <path d=""  transform="translate(3233, 677)"/>
-<path d=""  transform="translate(3233, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3233, 677)"/>
 </svg>
 
 
@@ -2076,32 +2029,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3618 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1393, 677)"/>
 <path d=""  transform="translate(1653, 677)"/>
-<path d=""  transform="translate(1913, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1913, 677)"/>
 <path d=""  transform="translate(2485, 677)"/>
-<path d=""  transform="translate(2745, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2745, 677)"/>
 <path d=""  transform="translate(3165, 677)"/>
-<path d=""  transform="translate(3165, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(3165, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3646 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1393, 677)"/>
 <path d=""  transform="translate(1653, 677)"/>
-<path d=""  transform="translate(1913, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1913, 677)"/>
 <path d=""  transform="translate(2513, 677)"/>
-<path d=""  transform="translate(2773, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2773, 677)"/>
 <path d=""  transform="translate(3193, 677)"/>
-<path d=""  transform="translate(3193, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(3193, 677)"/>
 </svg>
 
 
@@ -2124,32 +2077,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3606 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1407, 677)"/>
 <path d=""  transform="translate(1667, 677)"/>
-<path d=""  transform="translate(1927, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1927, 677)"/>
 <path d=""  transform="translate(2499, 677)"/>
-<path d=""  transform="translate(2719, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2719, 677)"/>
 <path d=""  transform="translate(3139, 677)"/>
-<path d=""  transform="translate(3139, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3139, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3634 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(420, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
 <path d=""  transform="translate(680, 677)"/>
-<path d=""  transform="translate(940, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(940, 677)"/>
 <path d=""  transform="translate(1407, 677)"/>
 <path d=""  transform="translate(1667, 677)"/>
-<path d=""  transform="translate(1927, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1927, 677)"/>
 <path d=""  transform="translate(2527, 677)"/>
-<path d=""  transform="translate(2747, 677)"/>
+<path d="M347.0,-20.0Q242.0,28.0 177.5,75.0Q113.0,122.0 84.0,176.0Q55.0,230.0 55.0,300.0Q55.0,369.0 84.0,423.0Q113.0,477.0 176.5,523.5Q240.0,570.0 343.0,618.0L388.0,551.0Q293.0,506.0 239.5,468.5Q186.0,431.0 165.0,391.5Q144.0,352.0 144.0,300.0Q144.0,246.0 165.0,205.0Q186.0,164.0 238.5,126.5Q291.0,89.0 384.0,47.0L347.0,-20.0Z"  transform="translate(2747, 677)"/>
 <path d=""  transform="translate(3167, 677)"/>
-<path d=""  transform="translate(3167, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3167, 677)"/>
 </svg>
 
 
@@ -2172,28 +2125,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3712 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(473, 677)"/>
 <path d=""  transform="translate(733, 677)"/>
 <path d=""  transform="translate(733, 677)"/>
-<path d=""  transform="translate(993, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(993, 677)"/>
 <path d=""  transform="translate(1620, 677)"/>
 <path d=""  transform="translate(1880, 677)"/>
-<path d=""  transform="translate(2140, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2140, 677)"/>
 <path d=""  transform="translate(2712, 677)"/>
-<path d=""  transform="translate(2972, 677)"/>
+<path d="M529.0,-22.0Q445.0,40.0 395.0,98.5Q345.0,157.0 329.0,227.0L182.0,336.0L182.0,0.0L95.0,0.0L95.0,600.0L182.0,600.0L182.0,425.0L323.0,321.0Q327.0,375.0 349.0,422.5Q371.0,470.0 415.0,519.0Q459.0,568.0 529.0,624.0L708.0,455.0L650.0,397.0L528.0,514.0Q483.0,475.0 457.0,440.5Q431.0,406.0 420.0,371.0Q409.0,336.0 409.0,295.0Q409.0,234.0 434.5,184.0Q460.0,134.0 521.0,81.0L650.0,204.0L708.0,146.0L529.0,-22.0Z"  transform="translate(2972, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3740 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(473, 677)"/>
 <path d=""  transform="translate(733, 677)"/>
 <path d=""  transform="translate(733, 677)"/>
-<path d=""  transform="translate(993, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(993, 677)"/>
 <path d=""  transform="translate(1620, 677)"/>
 <path d=""  transform="translate(1880, 677)"/>
-<path d=""  transform="translate(2140, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2140, 677)"/>
 <path d=""  transform="translate(2740, 677)"/>
-<path d=""  transform="translate(3000, 677)"/>
+<path d="M529.0,-22.0Q445.0,40.0 395.0,98.5Q345.0,157.0 329.0,227.0L182.0,336.0L182.0,0.0L95.0,0.0L95.0,600.0L182.0,600.0L182.0,425.0L323.0,321.0Q327.0,375.0 349.0,422.5Q371.0,470.0 415.0,519.0Q459.0,568.0 529.0,624.0L708.0,455.0L650.0,397.0L528.0,514.0Q483.0,475.0 457.0,440.5Q431.0,406.0 420.0,371.0Q409.0,336.0 409.0,295.0Q409.0,234.0 434.5,184.0Q460.0,134.0 521.0,81.0L650.0,204.0L708.0,146.0L529.0,-22.0Z"  transform="translate(3000, 677)"/>
 </svg>
 
 
@@ -2216,28 +2169,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3735 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1591, 677)"/>
 <path d=""  transform="translate(1851, 677)"/>
-<path d=""  transform="translate(2111, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2111, 677)"/>
 <path d=""  transform="translate(2683, 677)"/>
-<path d=""  transform="translate(2943, 677)"/>
+<path d="M260.0,0.0L260.0,232.0L30.0,320.0L30.0,409.0L228.0,600.0L347.0,600.0L347.0,434.0L610.0,264.0L610.0,600.0L697.0,600.0L697.0,0.0L610.0,0.0L610.0,175.0L347.0,345.0L347.0,0.0L260.0,0.0ZM260.0,316.0L260.0,523.0L106.0,373.0L260.0,316.0Z"  transform="translate(2943, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3763 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1591, 677)"/>
 <path d=""  transform="translate(1851, 677)"/>
-<path d=""  transform="translate(2111, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2111, 677)"/>
 <path d=""  transform="translate(2711, 677)"/>
-<path d=""  transform="translate(2971, 677)"/>
+<path d="M260.0,0.0L260.0,232.0L30.0,320.0L30.0,409.0L228.0,600.0L347.0,600.0L347.0,434.0L610.0,264.0L610.0,600.0L697.0,600.0L697.0,0.0L610.0,0.0L610.0,175.0L347.0,345.0L347.0,0.0L260.0,0.0ZM260.0,316.0L260.0,523.0L106.0,373.0L260.0,316.0Z"  transform="translate(2971, 677)"/>
 </svg>
 
 
@@ -2260,32 +2213,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3948 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1558, 677)"/>
 <path d=""  transform="translate(1818, 677)"/>
-<path d=""  transform="translate(2078, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2078, 677)"/>
 <path d=""  transform="translate(2650, 677)"/>
-<path d=""  transform="translate(2910, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2910, 677)"/>
 <path d=""  transform="translate(3537, 677)"/>
-<path d=""  transform="translate(3537, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3537, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3976 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1558, 677)"/>
 <path d=""  transform="translate(1818, 677)"/>
-<path d=""  transform="translate(2078, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2078, 677)"/>
 <path d=""  transform="translate(2678, 677)"/>
-<path d=""  transform="translate(2938, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2938, 677)"/>
 <path d=""  transform="translate(3565, 677)"/>
-<path d=""  transform="translate(3565, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3565, 677)"/>
 </svg>
 
 
@@ -2308,32 +2261,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4030 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1599, 677)"/>
 <path d=""  transform="translate(1859, 677)"/>
-<path d=""  transform="translate(2119, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2119, 677)"/>
 <path d=""  transform="translate(2691, 677)"/>
-<path d=""  transform="translate(2951, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2951, 677)"/>
 <path d=""  transform="translate(3578, 677)"/>
-<path d=""  transform="translate(3578, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3578, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4058 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1599, 677)"/>
 <path d=""  transform="translate(1859, 677)"/>
-<path d=""  transform="translate(2119, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2119, 677)"/>
 <path d=""  transform="translate(2719, 677)"/>
-<path d=""  transform="translate(2979, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2979, 677)"/>
 <path d=""  transform="translate(3606, 677)"/>
-<path d=""  transform="translate(3606, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3606, 677)"/>
 </svg>
 
 
@@ -2356,28 +2309,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3712 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1620, 677)"/>
 <path d=""  transform="translate(1880, 677)"/>
-<path d=""  transform="translate(2140, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2140, 677)"/>
 <path d=""  transform="translate(2712, 677)"/>
-<path d=""  transform="translate(2972, 677)"/>
+<path d="M211.0,-22.0L32.0,147.0L90.0,205.0L212.0,88.0Q257.0,128.0 283.0,162.0Q309.0,196.0 320.0,231.0Q331.0,266.0 331.0,307.0Q331.0,368.0 306.0,418.0Q281.0,468.0 219.0,521.0L90.0,398.0L32.0,456.0L211.0,624.0Q296.0,561.0 346.0,502.0Q396.0,443.0 411.0,372.0L558.0,264.0L558.0,600.0L645.0,600.0L645.0,0.0L558.0,0.0L558.0,175.0L417.0,279.0Q413.0,226.0 391.0,178.5Q369.0,131.0 325.0,82.5Q281.0,34.0 211.0,-22.0Z"  transform="translate(2972, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3740 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1620, 677)"/>
 <path d=""  transform="translate(1880, 677)"/>
-<path d=""  transform="translate(2140, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2140, 677)"/>
 <path d=""  transform="translate(2740, 677)"/>
-<path d=""  transform="translate(3000, 677)"/>
+<path d="M211.0,-22.0L32.0,147.0L90.0,205.0L212.0,88.0Q257.0,128.0 283.0,162.0Q309.0,196.0 320.0,231.0Q331.0,266.0 331.0,307.0Q331.0,368.0 306.0,418.0Q281.0,468.0 219.0,521.0L90.0,398.0L32.0,456.0L211.0,624.0Q296.0,561.0 346.0,502.0Q396.0,443.0 411.0,372.0L558.0,264.0L558.0,600.0L645.0,600.0L645.0,0.0L558.0,0.0L558.0,175.0L417.0,279.0Q413.0,226.0 391.0,178.5Q369.0,131.0 325.0,82.5Q281.0,34.0 211.0,-22.0Z"  transform="translate(3000, 677)"/>
 </svg>
 
 
@@ -2400,32 +2353,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4060 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1614, 677)"/>
 <path d=""  transform="translate(1874, 677)"/>
-<path d=""  transform="translate(2134, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2134, 677)"/>
 <path d=""  transform="translate(2706, 677)"/>
-<path d=""  transform="translate(2966, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2966, 677)"/>
 <path d=""  transform="translate(3593, 677)"/>
-<path d=""  transform="translate(3593, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3593, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4088 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1614, 677)"/>
 <path d=""  transform="translate(1874, 677)"/>
-<path d=""  transform="translate(2134, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2134, 677)"/>
 <path d=""  transform="translate(2734, 677)"/>
-<path d=""  transform="translate(2994, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2994, 677)"/>
 <path d=""  transform="translate(3621, 677)"/>
-<path d=""  transform="translate(3621, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3621, 677)"/>
 </svg>
 
 
@@ -2448,28 +2401,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4093 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1809, 677)"/>
 <path d=""  transform="translate(2069, 677)"/>
-<path d=""  transform="translate(2329, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2329, 677)"/>
 <path d=""  transform="translate(2901, 677)"/>
-<path d=""  transform="translate(3161, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,398.0L750.0,264.0L750.0,600.0L837.0,600.0L837.0,0.0L750.0,0.0L750.0,175.0L567.0,309.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3161, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4121 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(627, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
 <path d=""  transform="translate(887, 677)"/>
-<path d=""  transform="translate(1147, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(1147, 677)"/>
 <path d=""  transform="translate(1809, 677)"/>
 <path d=""  transform="translate(2069, 677)"/>
-<path d=""  transform="translate(2329, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2329, 677)"/>
 <path d=""  transform="translate(2929, 677)"/>
-<path d=""  transform="translate(3189, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,398.0L750.0,264.0L750.0,600.0L837.0,600.0L837.0,0.0L750.0,0.0L750.0,175.0L567.0,309.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3189, 677)"/>
 </svg>
 
 
@@ -2492,32 +2445,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3852 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1530, 677)"/>
 <path d=""  transform="translate(1790, 677)"/>
-<path d=""  transform="translate(2050, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2050, 677)"/>
 <path d=""  transform="translate(2622, 677)"/>
-<path d=""  transform="translate(2842, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2842, 677)"/>
 <path d=""  transform="translate(3408, 677)"/>
-<path d=""  transform="translate(3408, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3408, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3880 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1530, 677)"/>
 <path d=""  transform="translate(1790, 677)"/>
-<path d=""  transform="translate(2050, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2050, 677)"/>
 <path d=""  transform="translate(2650, 677)"/>
-<path d=""  transform="translate(2870, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2870, 677)"/>
 <path d=""  transform="translate(3436, 677)"/>
-<path d=""  transform="translate(3436, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3436, 677)"/>
 </svg>
 
 
@@ -2540,32 +2493,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3826 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1497, 677)"/>
 <path d=""  transform="translate(1757, 677)"/>
-<path d=""  transform="translate(2017, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2017, 677)"/>
 <path d=""  transform="translate(2589, 677)"/>
-<path d=""  transform="translate(2849, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2849, 677)"/>
 <path d=""  transform="translate(3415, 677)"/>
-<path d=""  transform="translate(3415, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3415, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3854 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1497, 677)"/>
 <path d=""  transform="translate(1757, 677)"/>
-<path d=""  transform="translate(2017, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2017, 677)"/>
 <path d=""  transform="translate(2617, 677)"/>
-<path d=""  transform="translate(2877, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2877, 677)"/>
 <path d=""  transform="translate(3443, 677)"/>
-<path d=""  transform="translate(3443, 677)"/>
+<path d="M100.0,-27.0L57.0,33.0L125.0,95.0Q74.0,139.0 51.0,188.0Q28.0,237.0 28.0,300.0Q28.0,362.0 50.5,410.5Q73.0,459.0 122.0,502.0L57.0,561.0L100.0,621.0L182.0,546.0Q236.0,581.0 316.0,618.0L361.0,551.0Q326.0,535.0 297.0,519.5Q268.0,504.0 244.0,490.0L321.0,420.0L273.0,365.0L184.0,446.0Q147.0,414.0 132.0,379.0Q117.0,344.0 117.0,300.0Q117.0,254.0 132.0,217.5Q147.0,181.0 184.0,148.0L273.0,229.0L321.0,174.0L245.0,104.0Q291.0,76.0 357.0,47.0L320.0,-20.0Q240.0,16.0 185.0,51.0L100.0,-27.0Z"  transform="translate(3443, 677)"/>
 </svg>
 
 
@@ -2588,32 +2541,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3908 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1538, 677)"/>
 <path d=""  transform="translate(1798, 677)"/>
-<path d=""  transform="translate(2058, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2058, 677)"/>
 <path d=""  transform="translate(2630, 677)"/>
-<path d=""  transform="translate(2890, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2890, 677)"/>
 <path d=""  transform="translate(3456, 677)"/>
-<path d=""  transform="translate(3456, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3456, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3936 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1538, 677)"/>
 <path d=""  transform="translate(1798, 677)"/>
-<path d=""  transform="translate(2058, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2058, 677)"/>
 <path d=""  transform="translate(2658, 677)"/>
-<path d=""  transform="translate(2918, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2918, 677)"/>
 <path d=""  transform="translate(3484, 677)"/>
-<path d=""  transform="translate(3484, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(3484, 677)"/>
 </svg>
 
 
@@ -2636,32 +2589,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3990 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1579, 677)"/>
 <path d=""  transform="translate(1839, 677)"/>
-<path d=""  transform="translate(2099, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2099, 677)"/>
 <path d=""  transform="translate(2671, 677)"/>
-<path d=""  transform="translate(2931, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2931, 677)"/>
 <path d=""  transform="translate(3497, 677)"/>
-<path d=""  transform="translate(3497, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3497, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4018 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1579, 677)"/>
 <path d=""  transform="translate(1839, 677)"/>
-<path d=""  transform="translate(2099, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2099, 677)"/>
 <path d=""  transform="translate(2699, 677)"/>
-<path d=""  transform="translate(2959, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2959, 677)"/>
 <path d=""  transform="translate(3525, 677)"/>
-<path d=""  transform="translate(3525, 677)"/>
+<path d="M208.0,0.0L33.0,304.0L208.0,600.0L284.0,600.0L460.0,304.0L284.0,0.0L208.0,0.0ZM246.0,83.0L370.0,303.0L246.0,517.0L123.0,303.0L246.0,83.0Z"  transform="translate(3525, 677)"/>
 </svg>
 
 
@@ -2684,32 +2637,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3966 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1567, 677)"/>
 <path d=""  transform="translate(1827, 677)"/>
-<path d=""  transform="translate(2087, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2087, 677)"/>
 <path d=""  transform="translate(2659, 677)"/>
-<path d=""  transform="translate(2919, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2919, 677)"/>
 <path d=""  transform="translate(3485, 677)"/>
-<path d=""  transform="translate(3485, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(3485, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3994 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1567, 677)"/>
 <path d=""  transform="translate(1827, 677)"/>
-<path d=""  transform="translate(2087, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2087, 677)"/>
 <path d=""  transform="translate(2687, 677)"/>
-<path d=""  transform="translate(2947, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2947, 677)"/>
 <path d=""  transform="translate(3513, 677)"/>
-<path d=""  transform="translate(3513, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(3513, 677)"/>
 </svg>
 
 
@@ -2732,32 +2685,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3950 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1559, 677)"/>
 <path d=""  transform="translate(1819, 677)"/>
-<path d=""  transform="translate(2079, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2079, 677)"/>
 <path d=""  transform="translate(2651, 677)"/>
-<path d=""  transform="translate(2911, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2911, 677)"/>
 <path d=""  transform="translate(3477, 677)"/>
-<path d=""  transform="translate(3477, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3477, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3978 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1559, 677)"/>
 <path d=""  transform="translate(1819, 677)"/>
-<path d=""  transform="translate(2079, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2079, 677)"/>
 <path d=""  transform="translate(2679, 677)"/>
-<path d=""  transform="translate(2939, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2939, 677)"/>
 <path d=""  transform="translate(3505, 677)"/>
-<path d=""  transform="translate(3505, 677)"/>
+<path d="M262.0,-22.0Q159.0,55.0 107.0,127.5Q55.0,200.0 55.0,295.0Q55.0,355.0 75.0,407.0Q95.0,459.0 140.5,511.5Q186.0,564.0 262.0,624.0L441.0,455.0L383.0,397.0L261.0,514.0Q216.0,475.0 190.0,440.5Q164.0,406.0 153.0,371.0Q142.0,336.0 142.0,295.0Q142.0,234.0 167.5,184.0Q193.0,134.0 254.0,81.0L383.0,204.0L441.0,146.0L262.0,-22.0Z"  transform="translate(3505, 677)"/>
 </svg>
 
 
@@ -2780,32 +2733,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3910 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1539, 677)"/>
 <path d=""  transform="translate(1799, 677)"/>
-<path d=""  transform="translate(2059, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2059, 677)"/>
 <path d=""  transform="translate(2631, 677)"/>
-<path d=""  transform="translate(2891, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2891, 677)"/>
 <path d=""  transform="translate(3457, 677)"/>
-<path d=""  transform="translate(3457, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(3457, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3938 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1539, 677)"/>
 <path d=""  transform="translate(1799, 677)"/>
-<path d=""  transform="translate(2059, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2059, 677)"/>
 <path d=""  transform="translate(2659, 677)"/>
-<path d=""  transform="translate(2919, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2919, 677)"/>
 <path d=""  transform="translate(3485, 677)"/>
-<path d=""  transform="translate(3485, 677)"/>
+<path d="M361.0,-9.0L180.0,144.0L180.0,0.0L95.0,0.0L95.0,600.0L170.0,600.0L411.0,401.0L361.0,348.0L180.0,501.0L180.0,411.0L411.0,223.0L361.0,170.0L180.0,322.0L180.0,232.0L411.0,45.0L361.0,-9.0Z"  transform="translate(3485, 677)"/>
 </svg>
 
 
@@ -2828,32 +2781,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3878 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1553, 677)"/>
 <path d=""  transform="translate(1813, 677)"/>
-<path d=""  transform="translate(2073, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2073, 677)"/>
 <path d=""  transform="translate(2645, 677)"/>
-<path d=""  transform="translate(2845, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2845, 677)"/>
 <path d=""  transform="translate(3411, 677)"/>
-<path d=""  transform="translate(3411, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3411, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3906 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(566, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
 <path d=""  transform="translate(826, 677)"/>
-<path d=""  transform="translate(1086, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1086, 677)"/>
 <path d=""  transform="translate(1553, 677)"/>
 <path d=""  transform="translate(1813, 677)"/>
-<path d=""  transform="translate(2073, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2073, 677)"/>
 <path d=""  transform="translate(2673, 677)"/>
-<path d=""  transform="translate(2873, 677)"/>
+<path d="M5.0,0.0L248.0,600.0L319.0,600.0L561.0,0.0L474.0,0.0L327.0,371.0Q310.0,415.0 300.5,442.5Q291.0,470.0 285.0,496.0L281.0,496.0Q275.0,471.0 265.0,439.5Q255.0,408.0 241.0,371.0L94.0,0.0L5.0,0.0Z"  transform="translate(2873, 677)"/>
 <path d=""  transform="translate(3439, 677)"/>
-<path d=""  transform="translate(3439, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3439, 677)"/>
 </svg>
 
 
@@ -2876,32 +2829,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3360 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(277, 677)"/>
 <path d=""  transform="translate(537, 677)"/>
 <path d=""  transform="translate(537, 677)"/>
-<path d=""  transform="translate(797, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(797, 677)"/>
 <path d=""  transform="translate(1264, 677)"/>
 <path d=""  transform="translate(1524, 677)"/>
-<path d=""  transform="translate(1784, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1784, 677)"/>
 <path d=""  transform="translate(2356, 677)"/>
-<path d=""  transform="translate(2616, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(2616, 677)"/>
 <path d=""  transform="translate(2893, 677)"/>
-<path d=""  transform="translate(2893, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(2893, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3388 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(277, 677)"/>
 <path d=""  transform="translate(537, 677)"/>
 <path d=""  transform="translate(537, 677)"/>
-<path d=""  transform="translate(797, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(797, 677)"/>
 <path d=""  transform="translate(1264, 677)"/>
 <path d=""  transform="translate(1524, 677)"/>
-<path d=""  transform="translate(1784, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1784, 677)"/>
 <path d=""  transform="translate(2384, 677)"/>
-<path d=""  transform="translate(2644, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,0.0L95.0,0.0Z"  transform="translate(2644, 677)"/>
 <path d=""  transform="translate(2921, 677)"/>
-<path d=""  transform="translate(2921, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(2921, 677)"/>
 </svg>
 
 
@@ -2924,28 +2877,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3350 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(467, 677)"/>
 <path d=""  transform="translate(727, 677)"/>
 <path d=""  transform="translate(727, 677)"/>
-<path d=""  transform="translate(987, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(987, 677)"/>
 <path d=""  transform="translate(1439, 677)"/>
 <path d=""  transform="translate(1699, 677)"/>
-<path d=""  transform="translate(1959, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(1959, 677)"/>
 <path d=""  transform="translate(2531, 677)"/>
-<path d=""  transform="translate(2791, 677)"/>
+<path d="M147.0,0.0L147.0,451.0L31.0,483.0L46.0,549.0L147.0,521.0L147.0,600.0L234.0,600.0L234.0,497.0L332.0,470.0L315.0,404.0L234.0,427.0L234.0,251.0L473.0,526.0L541.0,477.0L234.0,130.0L234.0,0.0L147.0,0.0Z"  transform="translate(2791, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3378 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(467, 677)"/>
 <path d=""  transform="translate(727, 677)"/>
 <path d=""  transform="translate(727, 677)"/>
-<path d=""  transform="translate(987, 677)"/>
+<path d="M182.0,0.0L182.0,410.0L31.0,494.0L60.0,557.0L182.0,490.0L182.0,600.0L269.0,600.0L269.0,442.0L420.0,359.0L385.0,297.0L269.0,362.0L269.0,0.0L182.0,0.0Z"  transform="translate(987, 677)"/>
 <path d=""  transform="translate(1439, 677)"/>
 <path d=""  transform="translate(1699, 677)"/>
-<path d=""  transform="translate(1959, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(1959, 677)"/>
 <path d=""  transform="translate(2559, 677)"/>
-<path d=""  transform="translate(2819, 677)"/>
+<path d="M147.0,0.0L147.0,451.0L31.0,483.0L46.0,549.0L147.0,521.0L147.0,600.0L234.0,600.0L234.0,497.0L332.0,470.0L315.0,404.0L234.0,427.0L234.0,251.0L473.0,526.0L541.0,477.0L234.0,130.0L234.0,0.0L147.0,0.0Z"  transform="translate(2819, 677)"/>
 </svg>
 
 
@@ -2968,32 +2921,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3826 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L313.0,440.0L211.0,600.0L299.0,600.0L356.0,507.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L223.0,177.0L335.0,0.0L248.0,0.0L180.0,109.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1502, 677)"/>
 <path d=""  transform="translate(1762, 677)"/>
-<path d=""  transform="translate(2022, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2022, 677)"/>
 <path d=""  transform="translate(2594, 677)"/>
-<path d=""  transform="translate(2844, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L313.0,440.0L211.0,600.0L299.0,600.0L356.0,507.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L223.0,177.0L335.0,0.0L248.0,0.0L180.0,109.0L111.0,0.0L10.0,0.0Z"  transform="translate(2844, 677)"/>
 <path d=""  transform="translate(3382, 677)"/>
-<path d=""  transform="translate(3382, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3382, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3854 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L313.0,440.0L211.0,600.0L299.0,600.0L356.0,507.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L223.0,177.0L335.0,0.0L248.0,0.0L180.0,109.0L111.0,0.0L10.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(538, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
 <path d=""  transform="translate(798, 677)"/>
-<path d=""  transform="translate(1058, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1058, 677)"/>
 <path d=""  transform="translate(1502, 677)"/>
 <path d=""  transform="translate(1762, 677)"/>
-<path d=""  transform="translate(2022, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2022, 677)"/>
 <path d=""  transform="translate(2622, 677)"/>
-<path d=""  transform="translate(2872, 677)"/>
+<path d="M10.0,0.0L217.0,313.0L25.0,600.0L119.0,600.0L268.0,371.0L313.0,440.0L211.0,600.0L299.0,600.0L356.0,507.0L417.0,600.0L516.0,600.0L321.0,311.0L528.0,0.0L434.0,0.0L271.0,253.0L223.0,177.0L335.0,0.0L248.0,0.0L180.0,109.0L111.0,0.0L10.0,0.0Z"  transform="translate(2872, 677)"/>
 <path d=""  transform="translate(3410, 677)"/>
-<path d=""  transform="translate(3410, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3410, 677)"/>
 </svg>
 
 
@@ -3016,32 +2969,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4420 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1794, 677)"/>
 <path d=""  transform="translate(2054, 677)"/>
-<path d=""  transform="translate(2314, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2314, 677)"/>
 <path d=""  transform="translate(2886, 677)"/>
-<path d=""  transform="translate(3146, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3146, 677)"/>
 <path d=""  transform="translate(3808, 677)"/>
-<path d=""  transform="translate(3808, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(3808, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4448 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1794, 677)"/>
 <path d=""  transform="translate(2054, 677)"/>
-<path d=""  transform="translate(2314, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2314, 677)"/>
 <path d=""  transform="translate(2914, 677)"/>
-<path d=""  transform="translate(3174, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3174, 677)"/>
 <path d=""  transform="translate(3836, 677)"/>
-<path d=""  transform="translate(3836, 677)"/>
+<path d="M5.0,0.0L271.0,600.0L342.0,600.0L607.0,0.0L522.0,0.0L357.0,371.0Q338.0,414.0 327.0,444.0Q316.0,474.0 308.0,498.0L304.0,498.0Q298.0,479.0 288.5,453.5Q279.0,428.0 268.0,399.0L439.0,0.0L355.0,0.0L227.0,305.0L186.0,212.0L273.0,0.0L189.0,0.0L144.0,117.0L93.0,0.0L5.0,0.0Z"  transform="translate(3836, 677)"/>
 </svg>
 
 
@@ -3064,32 +3017,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4158 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1663, 677)"/>
 <path d=""  transform="translate(1923, 677)"/>
-<path d=""  transform="translate(2183, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2183, 677)"/>
 <path d=""  transform="translate(2755, 677)"/>
-<path d=""  transform="translate(3015, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3015, 677)"/>
 <path d=""  transform="translate(3677, 677)"/>
-<path d=""  transform="translate(3677, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(3677, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4186 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1663, 677)"/>
 <path d=""  transform="translate(1923, 677)"/>
-<path d=""  transform="translate(2183, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2183, 677)"/>
 <path d=""  transform="translate(2783, 677)"/>
-<path d=""  transform="translate(3043, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(3043, 677)"/>
 <path d=""  transform="translate(3705, 677)"/>
-<path d=""  transform="translate(3705, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(3705, 677)"/>
 </svg>
 
 
@@ -3112,28 +3065,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4108 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1809, 677)"/>
 <path d=""  transform="translate(2069, 677)"/>
-<path d=""  transform="translate(2329, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2329, 677)"/>
 <path d=""  transform="translate(2901, 677)"/>
-<path d=""  transform="translate(3161, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,417.0L388.0,284.0L388.0,600.0L467.0,600.0L624.0,486.0L783.0,600.0L860.0,600.0L860.0,0.0L783.0,0.0L624.0,114.0L467.0,0.0L388.0,0.0L388.0,195.0L182.0,328.0L182.0,0.0L95.0,0.0ZM473.0,100.0L624.0,206.0L775.0,100.0L775.0,499.0L624.0,394.0L473.0,499.0L473.0,100.0Z"  transform="translate(3161, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4136 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L490.0,0.0L331.0,114.0L174.0,0.0L95.0,0.0ZM180.0,100.0L331.0,206.0L482.0,100.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,100.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1809, 677)"/>
 <path d=""  transform="translate(2069, 677)"/>
-<path d=""  transform="translate(2329, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2329, 677)"/>
 <path d=""  transform="translate(2929, 677)"/>
-<path d=""  transform="translate(3189, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,417.0L388.0,284.0L388.0,600.0L467.0,600.0L624.0,486.0L783.0,600.0L860.0,600.0L860.0,0.0L783.0,0.0L624.0,114.0L467.0,0.0L388.0,0.0L388.0,195.0L182.0,328.0L182.0,0.0L95.0,0.0ZM473.0,100.0L624.0,206.0L775.0,100.0L775.0,499.0L624.0,394.0L473.0,499.0L473.0,100.0Z"  transform="translate(3189, 677)"/>
 </svg>
 
 
@@ -3156,32 +3109,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4084 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1626, 677)"/>
 <path d=""  transform="translate(1886, 677)"/>
-<path d=""  transform="translate(2146, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2146, 677)"/>
 <path d=""  transform="translate(2718, 677)"/>
-<path d=""  transform="translate(2978, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(2978, 677)"/>
 <path d=""  transform="translate(3640, 677)"/>
-<path d=""  transform="translate(3640, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3640, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4112 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1626, 677)"/>
 <path d=""  transform="translate(1886, 677)"/>
-<path d=""  transform="translate(2146, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2146, 677)"/>
 <path d=""  transform="translate(2746, 677)"/>
-<path d=""  transform="translate(3006, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(3006, 677)"/>
 <path d=""  transform="translate(3668, 677)"/>
-<path d=""  transform="translate(3668, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3668, 677)"/>
 </svg>
 
 
@@ -3204,40 +3157,40 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5581 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1626, 677)"/>
 <path d=""  transform="translate(1886, 677)"/>
 <path d=""  transform="translate(1886, 677)"/>
-<path d=""  transform="translate(2146, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2146, 677)"/>
 <path d=""  transform="translate(2773, 677)"/>
 <path d=""  transform="translate(3033, 677)"/>
-<path d=""  transform="translate(3293, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(3293, 677)"/>
 <path d=""  transform="translate(3865, 677)"/>
-<path d=""  transform="translate(4125, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(4125, 677)"/>
 <path d=""  transform="translate(4787, 677)"/>
-<path d=""  transform="translate(4787, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L564.0,600.0L762.0,409.0L762.0,320.0L532.0,232.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0ZM532.0,316.0L686.0,373.0L532.0,523.0L532.0,316.0Z"  transform="translate(4787, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5609 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1626, 677)"/>
 <path d=""  transform="translate(1886, 677)"/>
 <path d=""  transform="translate(1886, 677)"/>
-<path d=""  transform="translate(2146, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2146, 677)"/>
 <path d=""  transform="translate(2773, 677)"/>
 <path d=""  transform="translate(3033, 677)"/>
-<path d=""  transform="translate(3293, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(3293, 677)"/>
 <path d=""  transform="translate(3893, 677)"/>
-<path d=""  transform="translate(4153, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(4153, 677)"/>
 <path d=""  transform="translate(4815, 677)"/>
-<path d=""  transform="translate(4815, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L564.0,600.0L762.0,409.0L762.0,320.0L532.0,232.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0ZM532.0,316.0L686.0,373.0L532.0,523.0L532.0,316.0Z"  transform="translate(4815, 677)"/>
 </svg>
 
 
@@ -3260,44 +3213,44 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5836 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1615, 677)"/>
 <path d=""  transform="translate(1875, 677)"/>
 <path d=""  transform="translate(1875, 677)"/>
-<path d=""  transform="translate(2135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2135, 677)"/>
 <path d=""  transform="translate(2762, 677)"/>
 <path d=""  transform="translate(3022, 677)"/>
-<path d=""  transform="translate(3282, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(3282, 677)"/>
 <path d=""  transform="translate(3854, 677)"/>
-<path d=""  transform="translate(4114, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(4114, 677)"/>
 <path d=""  transform="translate(4776, 677)"/>
-<path d=""  transform="translate(4776, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(4776, 677)"/>
 <path d=""  transform="translate(5209, 677)"/>
-<path d=""  transform="translate(5209, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(5209, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5864 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1615, 677)"/>
 <path d=""  transform="translate(1875, 677)"/>
 <path d=""  transform="translate(1875, 677)"/>
-<path d=""  transform="translate(2135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(2135, 677)"/>
 <path d=""  transform="translate(2762, 677)"/>
 <path d=""  transform="translate(3022, 677)"/>
-<path d=""  transform="translate(3282, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(3282, 677)"/>
 <path d=""  transform="translate(3882, 677)"/>
-<path d=""  transform="translate(4142, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(4142, 677)"/>
 <path d=""  transform="translate(4804, 677)"/>
-<path d=""  transform="translate(4804, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L391.0,414.0L391.0,334.0L182.0,164.0L182.0,0.0L95.0,0.0ZM182.0,268.0L315.0,375.0L182.0,495.0L182.0,268.0Z"  transform="translate(4804, 677)"/>
 <path d=""  transform="translate(5237, 677)"/>
-<path d=""  transform="translate(5237, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(5237, 677)"/>
 </svg>
 
 
@@ -3320,32 +3273,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4158 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1663, 677)"/>
 <path d=""  transform="translate(1923, 677)"/>
-<path d=""  transform="translate(2183, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2183, 677)"/>
 <path d=""  transform="translate(2755, 677)"/>
-<path d=""  transform="translate(3015, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(3015, 677)"/>
 <path d=""  transform="translate(3677, 677)"/>
-<path d=""  transform="translate(3677, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(3677, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4186 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1663, 677)"/>
 <path d=""  transform="translate(1923, 677)"/>
-<path d=""  transform="translate(2183, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2183, 677)"/>
 <path d=""  transform="translate(2783, 677)"/>
-<path d=""  transform="translate(3043, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(3043, 677)"/>
 <path d=""  transform="translate(3705, 677)"/>
-<path d=""  transform="translate(3705, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L178.0,600.0L433.0,479.0L433.0,380.0L291.0,303.0L433.0,231.0L433.0,132.0L174.0,0.0L95.0,0.0ZM175.0,320.0L360.0,426.0L175.0,514.0L175.0,320.0ZM175.0,93.0L360.0,185.0L175.0,284.0L175.0,93.0Z"  transform="translate(3705, 677)"/>
 </svg>
 
 
@@ -3368,28 +3321,28 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3858 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1844, 677)"/>
 <path d=""  transform="translate(2104, 677)"/>
-<path d=""  transform="translate(2364, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2364, 677)"/>
 <path d=""  transform="translate(2936, 677)"/>
-<path d=""  transform="translate(3196, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,256.0L331.0,144.0L180.0,252.0L180.0,0.0L95.0,0.0ZM331.0,236.0L482.0,344.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,346.0L331.0,236.0Z"  transform="translate(3196, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3886 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(662, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
 <path d=""  transform="translate(922, 677)"/>
-<path d=""  transform="translate(1182, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,0.0L95.0,0.0Z"  transform="translate(1182, 677)"/>
 <path d=""  transform="translate(1844, 677)"/>
 <path d=""  transform="translate(2104, 677)"/>
-<path d=""  transform="translate(2364, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2364, 677)"/>
 <path d=""  transform="translate(2964, 677)"/>
-<path d=""  transform="translate(3224, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L174.0,600.0L331.0,486.0L490.0,600.0L567.0,600.0L567.0,0.0L482.0,0.0L482.0,256.0L331.0,144.0L180.0,252.0L180.0,0.0L95.0,0.0ZM331.0,236.0L482.0,344.0L482.0,499.0L331.0,394.0L180.0,499.0L180.0,346.0L331.0,236.0Z"  transform="translate(3224, 677)"/>
 </svg>
 
 
@@ -3412,32 +3365,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3990 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1579, 677)"/>
 <path d=""  transform="translate(1839, 677)"/>
-<path d=""  transform="translate(2099, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2099, 677)"/>
 <path d=""  transform="translate(2671, 677)"/>
-<path d=""  transform="translate(2931, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(2931, 677)"/>
 <path d=""  transform="translate(3546, 677)"/>
-<path d=""  transform="translate(3546, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3546, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4018 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1579, 677)"/>
 <path d=""  transform="translate(1839, 677)"/>
-<path d=""  transform="translate(2099, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2099, 677)"/>
 <path d=""  transform="translate(2699, 677)"/>
-<path d=""  transform="translate(2959, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(2959, 677)"/>
 <path d=""  transform="translate(3574, 677)"/>
-<path d=""  transform="translate(3574, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L214.0,600.0L412.0,409.0L412.0,300.0L182.0,289.0L182.0,0.0L95.0,0.0ZM182.0,366.0L336.0,373.0L182.0,523.0L182.0,366.0Z"  transform="translate(3574, 677)"/>
 </svg>
 
 
@@ -3460,32 +3413,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4356 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1762, 677)"/>
 <path d=""  transform="translate(2022, 677)"/>
-<path d=""  transform="translate(2282, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2282, 677)"/>
 <path d=""  transform="translate(2854, 677)"/>
-<path d=""  transform="translate(3114, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(3114, 677)"/>
 <path d=""  transform="translate(3729, 677)"/>
-<path d=""  transform="translate(3729, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(3729, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4384 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1762, 677)"/>
 <path d=""  transform="translate(2022, 677)"/>
-<path d=""  transform="translate(2282, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2282, 677)"/>
 <path d=""  transform="translate(2882, 677)"/>
-<path d=""  transform="translate(3142, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(3142, 677)"/>
 <path d=""  transform="translate(3757, 677)"/>
-<path d=""  transform="translate(3757, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,434.0L445.0,264.0L445.0,600.0L532.0,600.0L532.0,0.0L445.0,0.0L445.0,175.0L182.0,345.0L182.0,0.0L95.0,0.0Z"  transform="translate(3757, 677)"/>
 </svg>
 
 
@@ -3508,32 +3461,32 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43
 
 
 Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4036 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1602, 677)"/>
 <path d=""  transform="translate(1862, 677)"/>
-<path d=""  transform="translate(2122, 677)"/>
+<path d="M56.0,416.0L56.0,487.0L514.0,487.0L514.0,416.0L56.0,416.0ZM56.0,217.0L56.0,288.0L514.0,288.0L514.0,217.0L56.0,217.0Z"  transform="translate(2122, 677)"/>
 <path d=""  transform="translate(2694, 677)"/>
-<path d=""  transform="translate(2954, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(2954, 677)"/>
 <path d=""  transform="translate(3569, 677)"/>
-<path d=""  transform="translate(3569, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3569, 677)"/>
 </svg>
  Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4064 2036" transform="matrix(1 0 0 -1 0 0)">
-<path d=""  transform="translate(0, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(0, 677)"/>
 <path d=""  transform="translate(615, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
 <path d=""  transform="translate(875, 677)"/>
-<path d=""  transform="translate(1135, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(1135, 677)"/>
 <path d=""  transform="translate(1602, 677)"/>
 <path d=""  transform="translate(1862, 677)"/>
-<path d=""  transform="translate(2122, 677)"/>
+<path d="M94.0,0.0L94.0,714.0L505.0,714.0L505.0,0.0L94.0,0.0ZM145.0,51.0L454.0,51.0L454.0,663.0L145.0,663.0L145.0,51.0Z"  transform="translate(2122, 677)"/>
 <path d=""  transform="translate(2722, 677)"/>
-<path d=""  transform="translate(2982, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L180.0,600.0L435.0,427.0L435.0,600.0L520.0,600.0L520.0,0.0L435.0,0.0L180.0,173.0L180.0,0.0L95.0,0.0ZM435.0,254.0L435.0,346.0L180.0,519.0L180.0,427.0L435.0,254.0ZM435.0,81.0L435.0,173.0L180.0,346.0L180.0,254.0L435.0,81.0Z"  transform="translate(2982, 677)"/>
 <path d=""  transform="translate(3597, 677)"/>
-<path d=""  transform="translate(3597, 677)"/>
+<path d="M95.0,0.0L95.0,600.0L182.0,600.0L182.0,371.0L384.0,624.0L449.0,567.0L182.0,241.0L182.0,0.0L95.0,0.0Z"  transform="translate(3597, 677)"/>
 </svg>
 
 
@@ -3570,6 +3523,13 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40
 	- And 87 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: lacks-kern-info]
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+
+
+* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
+ FONT_FAMILY_NAME = 'Noto Sans Old Hungarian' / SUBFAMILY_NAME = 'Regular'
+
+Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -3600,11 +3560,6 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 commaaccent2 (unencoded) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -3646,8 +3601,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 11 | 9 | 113 | 7 | 95 | 0 |
-| 0% | 5% | 4% | 48% | 3% | 40% | 0% |
+| 0 | 2 | 9 | 108 | 7 | 101 | 0 |
+| 0% | 1% | 4% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
