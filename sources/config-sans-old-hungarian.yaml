@@ -4,5 +4,13 @@ googleFonts: true
 includeSubsets:
 - from: Noto Sans
   name: GF_Latin_Core
+- from: Noto Sans
+  ranges:
+    - start: 0x20E1
+      end: 0x20E1
+    - start: 0x205A
+      end: 0x205A
+    - start: 0x205D
+      end: 0x205E
 sources:
 - NotoSansOldHungarian.glyphs
