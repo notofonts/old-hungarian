@@ -6,11 +6,12 @@ includeSubsets:
   name: GF_Latin_Core
 - from: Noto Sans
   ranges:
-    - start: 0x2E31
-      end: 0x2E31
-    - start: 0x205A
-      end: 0x205A
-    - start: 0x205D
-      end: 0x205E
+  - end: 11825
+    start: 11825
+  - end: 8282
+    start: 8282
+  - end: 8286
+    start: 8285
+recipeProvider: noto
 sources:
 - NotoSansOldHungarian.glyphs
